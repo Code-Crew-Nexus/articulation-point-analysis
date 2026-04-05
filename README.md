@@ -42,20 +42,20 @@ Articulation Point Analysis is a **Java CLI project** to analyze network reliabi
 ## Project Structure
 
 ```
-ARTICULATION-POINT-ANALYSIS/
+articulation-point-analysis/
 │
 ├── src/
 │   └── main/
 │       └── java/
 │           └── com/
 │               └── network/
-│                   ├── App.java                # CLI entry point
-│                   ├── Graph.java              # Graph data structure
-│                   ├── GraphVisualizer.java    # HTML exporter
-│                   ├── NetworkSimulator.java   # Scale-free generator
-│                   ├── ReliabilityAnalyzer.java# Articulation-point analysis
+│                   ├── App.java                  # CLI entry point
+│                   ├── Graph.java                # Graph data structure
+│                   ├── GraphVisualizer.java      # HTML exporter
+│                   ├── NetworkSimulator.java     # Scale-free generator
+│                   └── ReliabilityAnalyzer.java  # Articulation-point analysis
 │
-├── out/                     # Compiled .class files
+├── out/                      # Compiled .class files
 ├── sample_graph.csv          # Example input graph
 ├── scale_free_network.html   # Visualization output
 ├── test.html                 # Test visualization
@@ -67,8 +67,45 @@ ARTICULATION-POINT-ANALYSIS/
 
 ## Requirements
 
-- Java JDK 11 or later
-- Windows PowerShell (commands below use PowerShell syntax)
+To build and run **Articulation Point Analysis**, ensure the following prerequisites are installed and configured on your system:
+
+### 1. **Java Development Kit (JDK)**
+- Version: **JDK 11 or later** (recommended: JDK 17 for long-term support).
+- Verify installation:
+  ```bash
+  java -version
+  javac -version
+  ```
+- Both commands should return the installed version.
+
+### 2. **Build Tools**
+- **Maven** (optional, if you want dependency management and automated builds).
+  - Install from [Apache Maven](https://maven.apache.org/).
+  - Verify installation:
+    ```bash
+    mvn -v
+    ```
+
+### 3. **Operating System**
+- Works on **Windows, Linux, and macOS**.
+- Commands in this README use **Windows PowerShell syntax**; adapt accordingly for other shells (e.g., Bash).
+
+### 4. **IDE / Editor**
+- Recommended: **Visual Studio Code** or **IntelliJ IDEA**.
+- Install Java extensions/plugins for syntax highlighting, debugging, and project management.
+
+### 5. **Visualization Tools (Optional)**
+- **GraphViz** (if you want advanced graph rendering beyond the built-in Swing/HTML visualizer).
+- Install from [GraphViz.org](https://graphviz.org/download/).
+- Verify installation:
+  ```bash
+  dot -V
+  ```
+
+### 6. **Browser**
+- Any modern browser (Chrome, Edge, Firefox) to open the generated HTML visualizations.
+
+---
 
 ## Compile
 
