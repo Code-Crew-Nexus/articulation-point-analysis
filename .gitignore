@@ -1,0 +1,19 @@
+# Build outputs
+/out/
+*.class
+
+# Generated visualizations and exports
+*.html
+
+# Office temp and recovery files
+~$*.docx
+~$*.pptx
+*.tmp.docx
+
+# IDE and editor state
+.idea/
+.vscode/
+
+# OS noise
+Thumbs.db
+.DS_Store
