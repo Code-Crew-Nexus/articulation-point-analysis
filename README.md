@@ -39,8 +39,6 @@ Articulation Point Analysis is a **Java CLI project** to analyze network reliabi
 
 ---
 
----
-
 ## Project Structure
 
 ```
