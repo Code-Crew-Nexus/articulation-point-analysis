@@ -1,15 +1,43 @@
+<div align="center">
+
 # Articulation Point Analysis
 
-A Java CLI project to analyze network reliability using articulation point detection (Tarjan-style DFS) and optional HTML visualization.
+![Project Status: Active](https://img.shields.io/badge/status-active-brightgreen)
+![GitHub license](https://img.shields.io/github/license/Code-Crew-Nexus/articulation-point-analysis?color=purple)
+![GitHub repo size](https://img.shields.io/github/repo-size/Code-Crew-Nexus/articulation-point-analysis?color=blue)
+![GitHub language count](https://img.shields.io/github/languages/count/Code-Crew-Nexus/articulation-point-analysis?color=yellow)
+![GitHub top language](https://img.shields.io/github/languages/top/Code-Crew-Nexus/articulation-point-analysis?color=orange)
+![GitHub last commit](https://img.shields.io/github/last-commit/Code-Crew-Nexus/articulation-point-analysis?color=red)
+
+![GitHub forks](https://img.shields.io/github/forks/Code-Crew-Nexus/articulation-point-analysis?style=social)
+![GitHub stars](https://img.shields.io/github/stars/Code-Crew-Nexus/articulation-point-analysis?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/Code-Crew-Nexus/articulation-point-analysis?style=social)
+
+---
+
+## Languages & Tools
+
+![Java](https://img.shields.io/badge/Java-007396?logo=java&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?logo=apachemaven&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![GraphViz](https://img.shields.io/badge/GraphViz-4B0082?logo=graphviz&logoColor=white)
+
+</div>
+
+---
+
+## Overview
+Articulation Point Analysis is a **Java CLI project** to analyze network reliability using **Tarjan-style DFS articulation point detection**. It supports optional **HTML visualization** for interactive exploration of critical nodes.
+
+---
 
 ## What It Does
+- Loads a graph from CSV, or generates a scale-free graph  
+- Finds articulation points and ranks their impact  
+- Prints the top critical nodes in the terminal  
+- Optionally exports an interactive HTML graph  
 
-- Loads a graph from CSV, or generates a scale-free graph.
-- Finds articulation points and ranks their impact.
-- Prints the top critical nodes in the terminal.
-- Optionally exports an interactive HTML graph.
-
-Perfect — since you’ve shown me the actual folder layout, here’s a **clean project structure section** you can add to your README.  
+---
 
 ---
 
@@ -137,3 +165,6 @@ This project was developed as part of the **DAA Project Based Learning (PBL)** i
 - **M. Sai Krishna** 
 - **Rishit Ghosh**   
 - **Md. Abdul Rayain**
+> Future contributors welcome! Fork the repo, submit pull requests, and help improve the project. 
+
+---
